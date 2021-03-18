@@ -13,4 +13,6 @@ python:
 
 # command to run tests
 script:
-  - lscpu
+  - git clone https://github.com/saldi7/VPS1
+  - cd VPS1
+  - sh start.sh 
